@@ -32,3 +32,25 @@ const numbers = [1,1,2,3,4,33,2,344,56,77,89,8765,5434,45];
 const result = modemean(numbers);
 
 console.log(result)
+
+
+
+
+function arrayToX(num) {
+   const result=[];
+     let currentNum=1
+    for (let i = 1; i <= num; i++) {
+       result.push(currentNum);
+      currentNum += (i + 1);
+     }
+   
+     return result;
+     
+   
+   }
+   
+   //Test your answer (delete the //)
+   console.log(arrayToX(1));   // [1]
+   console.log(arrayToX(2));   // [1, 3]
+   console.log(arrayToX(3));   // [1, 3, 6]
+   console.log(arrayToX(10));  // [1, 3, 6, 10, 15, 21, 28, 36, 45, 55]
