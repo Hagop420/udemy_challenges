@@ -37,5 +37,8 @@ console.log(`${y} % ${z} = ${y%z}`);
 
 
 
+// Date object
 
+
+console.log(new Date());
 
