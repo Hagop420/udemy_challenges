@@ -42,3 +42,22 @@ console.log(`${y} % ${z} = ${y%z}`);
 
 console.log(new Date());
 
+const DatE=new Date()
+DatE.setFullYear(2024)
+DatE.setHours(2)
+DatE.setMilliseconds(10)
+
+console.log(new Date(04-07-22));
+console.log(new Date(04/07/2022));
+console.log(DatE);
+
+console.log(new Date('04/07/2022 02:30:11'));
+console.log(new Date('2023-01-11'));
+
+
+// always use a / not hyphens - for no time zone error
+
+
+console.log(new Date('2023-01-11'));
+
+console.log(new Date('2023/01/11'));
