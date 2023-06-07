@@ -22,5 +22,20 @@ console.log(modulo);
 
 
 
+// getting the sums using the Math obj
+
+
+const y=Math.random()*100+1
+const z = Math.random() * 7000 + 1
+
+
+console.log(`${y} + ${z} = ${y+z}`);
+console.log(`${y} - ${z} = ${y-z}`);
+console.log(`${y} * ${z} = ${y*z}`);
+console.log(`${y} / ${z} = ${y/z}`);
+console.log(`${y} % ${z} = ${y%z}`);
+
+
+
 
 
