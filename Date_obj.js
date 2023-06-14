@@ -34,6 +34,6 @@ let t=new Date()
 // t=Math.floor(new Date().valueOf()/100)
 
 t.setMilliseconds('13')
-t.setHours('10')
-t=t.getHours()
+t=Date.now().valueOf()
+// t=t.getHours()
 console.log(t);
