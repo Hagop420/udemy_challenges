@@ -83,3 +83,7 @@ console.log(date.toLocaleString('default', { month: 'short' }));
 
 
 console.log(time);
+
+
+// short weekday
+// console.log(`${date.toLocaleString('en-US', { weekday: 'short' })}`);
