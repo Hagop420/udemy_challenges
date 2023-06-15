@@ -2,7 +2,7 @@
 
 let x;
 
-const nums = [1, 2, 3, 4, 5]
+const nums = [11, 22, 31, 4, 51]
 
 
 
@@ -30,7 +30,7 @@ x = nums.push('lollipop')
 x=nums.unshift('pie')
 
 // reversed entire array elements
-x = nums.reverse()
+// x = nums.reverse()
 
 
 
@@ -61,6 +61,11 @@ x = nums
 
 
 
+
+
+
+
+
 x=nums
 
 // old way to make arrays
@@ -78,6 +83,33 @@ const str1 = new Array('Apple', 'green', 'orange', 'taco')
 // check if array contains this value 
 
 x=nums.includes('lollipop')
+
+
+
+
+
+// concat method and String conversion
+
+x = String(nums.indexOf('lollipop')).concat(0)
+
+// where it's located-indexOf
+
+x = str1.indexOf('Apple')
+
+
+
+// array slice and splice methods
+
+
+// 1.slice
+
+x=str1.slice(4)
+
+// 2.splice
+
+
+// splicing and chaining on methods
+x=nums.splice(6,4).forEach(oop=>console.log(oop))
 
 console.log(x);
 
