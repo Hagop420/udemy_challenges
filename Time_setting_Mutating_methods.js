@@ -15,10 +15,14 @@ time = date.getMilliseconds()
 // Date object into a string
 time=date.toString()
      // making the date from templates
+
+
+   //   Months array
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
 ];
 
+            // getting the actual month 
 time = `${monthNames[date.getMonth()]} ${date.getDate()} ${date.getFullYear()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()} /${date.getMilliseconds()}`
 // time=`${monthNames[date.getMonth()]} ${date.getDate ()} ${date.getFullYear()} ${date.getHours()}:0${date.getMinutes()}pm`
 
