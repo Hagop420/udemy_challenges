@@ -12,6 +12,8 @@ time=date.getMinutes()
 time=date.getSeconds()
 time = date.getMilliseconds()
 
+// Date object into a string
+time=date.toString()
      // making the date from templates
 const monthNames = ["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"
@@ -76,4 +78,4 @@ console.log(date.toLocaleString('default', { month: 'short' }));
 // API Intl ending
 
 
-// console.log(time);
+console.log(time);
